@@ -1,7 +1,6 @@
-import Navebar from '@/components/Navebar';
-import './globals.css';
-import Footer from '@/components/footer';
-
+import Navebar from "@/components/Navebar";
+import "./globals.css";
+import Footer from "@/components/footer";
 
 export const metadata = {
   title: "Flexibble",

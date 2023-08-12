@@ -33,7 +33,7 @@ const footer = () => {
             share, grow, and get hired.
           </p>
         </div>
-
+        {/* footer links */}
         <div className="flex flex-wrap gap-12">
           <FooterColumn
             title={footerLinks[0].title}
@@ -72,6 +72,16 @@ const footer = () => {
             links={footerLinks[6].links}
           />
         </div>
+        {/* end of footer links */}
+        {/* start fo copy right section */}
+        <div className="flexBetween footer_copyright">
+          <p>@ 2023 Flexibble. All rights reserved</p>
+          <p className="text-gray">
+            <span className="text-black font-semibold">10,214</span> projects
+            submitted
+          </p>
+        </div>
+        {/* end copy right */}
       </div>
     </footer>
   );
